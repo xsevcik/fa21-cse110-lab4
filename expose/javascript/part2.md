@@ -29,3 +29,7 @@
     E. `false` - The boolean `true` maps to the number 1, which does not equal 2.
     F. `true` - The two types are equal and both evaluate to `true`.
 15. The standard equality operator `==` will try to convert its to operands to a like type in order to check equality. The strict equality operator `===` will not perform such a conversion and will instead return `false` if the operands are different types.
+16. *see JavaScript source file*
+17. When called in this way, this function takes an array and applies the separate function `callback` on its members. In this case, the `callback` function is `doSomething` which multiplies a number by 2. Effectively, this function takes each member of the input array and multiplies it by 2, adding it to a new array which is returned. The output in this specific case is `[2, 4, 6]`.
+18. *see JavaScript source file*
+19. `1 4 3 2`
