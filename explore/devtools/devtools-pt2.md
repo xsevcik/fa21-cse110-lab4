@@ -1,0 +1,2 @@
+1. The bug is that user input is treated as strings, so the `+` operator is used for concatenation instead of addition.
+2. The `Number()` function can be used to interpret each input string as a number. Input sanitization would also probably be a good idea here, but that is beyond the scope of this exercise.
